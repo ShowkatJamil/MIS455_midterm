@@ -34,6 +34,12 @@
     color: rgb(250, 250, 250);
     font-family: 'ABeeZee', sans-serif;
   }
+
+  .container{
+    display:contents;
+    padding: 100px;
+}
+
   
 
 
@@ -43,6 +49,6 @@
   footer{
     background-color: rgb(70, 22, 160);
     padding: 20px 0px 20px 0px;
-    border-radius: 0px 10px 0px 10px;
+    border-radius: 0px 0px 10px 10px;
     color: white;
   }
