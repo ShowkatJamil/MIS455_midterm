@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +36,7 @@
     font-family: 'ABeeZee', sans-serif;
   }
 
-  .container{
+.container{
     display:contents;
 }
 .container .upper-div img{
@@ -62,6 +63,7 @@
     font-weight: bolder;
     font-size: larger;
     background-color:  rgb(70, 22, 160);;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -76,12 +78,14 @@
 
 .cards{
     width:28%;
+    height: 100%;
     border: 3px solid  rgb(70, 22, 160);;
     border-radius: 15px;
     /* padding: 10px;  */
     margin-top: 15px;
     margin-right: 30px;
     /* overflow: hidden;  */
+    padding-bottom:20px ;
 }
 
 h4{
@@ -111,7 +115,7 @@ a{
 .cards p{
     margin: 20px 3px 5px 3px;
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
 }
