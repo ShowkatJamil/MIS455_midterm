@@ -157,8 +157,73 @@ a{
 
 }
 
+/* contact us */
 
-
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .help-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .help-cards img{
+    width: 50%;
+  }
+  
+  .help-cards p{
+    width: 100%;
+    line-height: 25px;
+  }
+  
+  .highlight{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(82, 32, 129);
+  }
+  
+  
+  .contact-form{
+    display: block;
+    text-align: center;
+  }
+  
+  .text-input{
+    display: inline;
+  }
+  
+  
+  input{
+    border-radius: 5px;
+    height: 20px;
+    width: 30%;
+  }
+  button{
+    background-color: rgb(50, 28, 148);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-weight: 700;
+    border-radius: 15px;  
+  }
+  
+  button:hover:not(.active) {
+    background-color: rgb(110, 3, 3);
+    color: rgb(255, 255, 255);
+  }
+  
+  .showBox{
+    line-height: 25px;
+    margin-top: 50px;
+    border: 3px solid rgb(70, 22, 160);;
+    border-radius: 5px;
+    box-shadow: rgba(49, 35, 30, 0.445) 5px 5px 5px 5px;
+    padding: 5% 5% 5% 5%;
+  }
 
 
 

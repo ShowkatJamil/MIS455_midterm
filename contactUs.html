@@ -16,8 +16,47 @@
         <li><a href="contactUs.html">Contact Us</a></li>
       </ul>
     </header>
-      <footer><span style="margin-left: 10px;">All rights reserved by ©Gamehub BD 2023</span></footer>
-  
-    </body>
-  </html>
-  
+
+    <div class="container">
+      <div class="address">
+        <div class="help-cards">
+          <img src="resources/help.jpg" alt="" />
+
+          <p style="margin-left: 5%">
+            <span class="highlight">Our Address: </span><br />
+            1118, Ibrahimpur, Kafrul, Dhaka-1206 <br>
+            Phone: 01320382259 <br>
+            Email: cyclonus2k16@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h1 style="margin: 5% 0px 3% 0px">Contact Information</h1>
+        <div class="text-input">
+          <span> Enter Name: <input id="nameBox" type="text" /> </span>
+          <br /><br />
+          <span>
+            Email:
+            <input id="emailBox" type="email" style="margin-left: 50px" /></span
+          ><br /><br />
+          <span
+            >Enter Phone:
+            <input id="phoneBox" type="tel" style="margin-left: 5px" /></span
+          ><br /><br />
+        </div>
+        <button onclick="showPersonInfo()">Submit</button>
+
+        <div id="showBox" class="showBox"></div>
+      </div>
+    </div>
+
+    <footer>
+      <span style="margin-left: 10px"
+        >All rights reserved by ©Gamehub BD 2023</span
+      >
+    </footer>
+
+    <script src="showPersonInfo.js"></script>
+  </body>
+</html>
