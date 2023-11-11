@@ -138,9 +138,9 @@ a{
     text-align: center;
 }
 
-.grid-item img{
+/* .grid-item img{
   width: 100%;
-}
+} */
 
 .product-title{
   color:  rgb(107, 65, 185);
@@ -154,14 +154,10 @@ a{
 .details{
     text-align: center;
     padding: 10px 10px 10px 10px;
-    /* color: white; */
+
 }
 
-h3{
-    /* color: white; */
-}
 
-  
 
 
 
